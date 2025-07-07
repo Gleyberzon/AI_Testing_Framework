@@ -143,5 +143,3 @@ async def test_browser_task_from_csv(test_name: str, test_task: str, expected_su
         f"Task: '{test_task}'\n" \
         f"Expected substring: '{expected_substring}'\n" \
         f"Actual final result: '{final_result}'"
-
-# pytest .\test_BrowserUse.py --alluredir=allure-results
