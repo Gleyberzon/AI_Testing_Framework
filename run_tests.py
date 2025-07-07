@@ -1,11 +1,11 @@
 import subprocess
-from paths import TEST_FILE, ALLURE_RESULTS_DIR
+from paths import BROWSERUSE_TESTS_PATH, ALLURE_RESULTS_DIR
 
-
+### Add tasks to file Task/browseruse_tasks.csv
 def main():
     subprocess.run([
         "pytest",
-        TEST_FILE,
+        BROWSERUSE_TESTS_PATH,
         f"--alluredir={ALLURE_RESULTS_DIR}"
     ])
 

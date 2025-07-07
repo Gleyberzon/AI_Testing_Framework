@@ -1,2 +1,0 @@
-Test Name,Test Task,Expected Substring
-Test_01,"Open https://www.google.com. Enter to search bar 'cats' and click on 'search' button. Click on the 'Images' tab. Check that there are more than one image of cats", success
