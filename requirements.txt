@@ -1,0 +1,17 @@
+# Core testing
+pytest
+pytest-asyncio
+allure-pytest
+
+# Browser automation
+playwright
+
+# AI agents
+browser-use
+alumnium
+
+# Environment variables
+python-dotenv
+
+# CSV & misc
+pandas
