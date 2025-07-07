@@ -24,8 +24,7 @@ playwright/.cache/
 ms-playwright/
 
 # VS Code
-.vscode/
-.vscode/settings.json
+
 
 # macOS
 .DS_Store
