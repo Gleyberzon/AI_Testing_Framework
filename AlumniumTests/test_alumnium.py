@@ -22,7 +22,7 @@ def alumni_session():
 
 def test_01(alumni_session: Alumni):
     al = alumni_session
-    al.do("Add a task: 'pick up the kids'")
-    al.do("Add a task: 'buy milk'")
+    al.do("Add a task: 'Develop Alumnium test frameework'")
+    al.do("Add a task: 'Do 10 pushups'")
     al.do("mark all tasks complete using 'Toggle All' button")
-    al.check("task 'buy milk' is completed")
+    al.check("task 'Develop Alumnium test frameework' is completed")
