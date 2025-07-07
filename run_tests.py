@@ -7,7 +7,7 @@ def main():
     subprocess.run([
         "pytest",
         BROWSERUSE_TESTS_PATH, ### Add tasks to file Task/browseruse_tasks.csv for BrowserUse testing.
-        # ALUMNIUM_TESTS_PATH, ### Develop your own tests with Alumnium
+        ALUMNIUM_TESTS_PATH, ### Develop your own tests with Alumnium
         f"--alluredir={ALLURE_RESULTS_DIR}"
     ])
 
